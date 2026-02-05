@@ -1,0 +1,9 @@
+# Ignore build artifacts
+dist/
+build/
+*.spec
+
+# Ignore binary dependencies
+bin/
+__pycache__/
+*.log
