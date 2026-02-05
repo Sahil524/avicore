@@ -43,9 +43,9 @@ Options:
 2. Bulk Convert
 Converts all videos matching a pattern. Includes a progress bar and summary report.
 
-Usage: avicore video bulk [PATTERN] [FORMAT]
+Usage: avicore video [PATTERN] [FORMAT]
 
-Example: avicore video bulk "*.mov" mp4
+Example: avicore video "*.mov" mp4
 
 3. Mute Video
 Removes the audio track while keeping the video stream and subtitles intact. Does not re-encode video (Instant).
@@ -67,9 +67,9 @@ Example: avicore audio extract lecture.mp4
 2. Bulk Audio Convert
 Batch processes audio files with progress tracking.
 
-Usage: avicore audio bulk [PATTERN] [FORMAT]
+Usage: avicore audio [PATTERN] [FORMAT]
 
-Example: avicore audio bulk "*.wav" mp3
+Example: avicore audio "*.wav" mp3
 
 🖼️ Image Commands
 Commands for processing images (.jpg, .png, .webp, etc.).
@@ -91,6 +91,13 @@ Changes image format (e.g., PNG to JPG, WebP to PNG).
 Usage: avicore image convert [INPUT] [FORMAT]
 
 Example: avicore image convert logo.png webp
+
+3. Bulk Image Convert
+Batch processes image files with progress tracking.
+
+Usage: avicore image [PATTERN] [FORMAT]
+
+Example: avicore image "*.png" webp
 
 ⚙️ Advanced Features
 🛡️ Safety Systems
